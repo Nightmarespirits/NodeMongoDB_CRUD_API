@@ -1,0 +1,20 @@
+{
+  "name": "proyectocrud_nodejs",
+  "version": "1.0.0",
+  "description": "\"Proyecto CRUD con NodeJS\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "\"Tutaya Rivera Clider\"",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  }
+}
